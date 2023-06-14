@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:            East
-email:            your-email@domain.com
-description:      Minimal and Clean Blog Jekyll Theme
-baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'http://east-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-github_username:  aspirethemes
-twitter_username: aspirethemes
+title: East
+email: himanshu25@gmail.com
+description: Minimal and Clean Blog Jekyll Theme
+baseurl: "/index" # The subpath of your site, e.g. /blog
+url: "https://himanshugshah.github.io/" # The base hostname & protocol for your site
+github_username: himanshugshah
+twitter_username: himanshugshah
 
-markdown:  kramdown
+markdown: kramdown
 permalink: pretty
-paginate:  12
+paginate: 12
 
 gems:
   - jekyll-paginate
@@ -34,24 +34,24 @@ sass:
   style: compressed
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 
 # Pages path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
 
 # Authors
 authors:
   ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
-    github_username:  ahmadajmi
+    name: Ahmad Ajmi
+    bio: Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    gravatar: https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
+    email: info@aspirethemes.com
+    website: http://aspirethemes.com
+    github_username: ahmadajmi
     twitter_username: ahmadajmi
